@@ -14,7 +14,7 @@ import com.example.demo.service.PasswordResetService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "${cors.allowed-origin}")
 public class PasswordResetController {
 	
 	 @Autowired

@@ -73,7 +73,7 @@ import com.example.demo.repository.StudentRepository;
 import com.example.demo.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "https://placementmanagementsystem.pages.dev")
+@CrossOrigin(origins = "${cors.allowed-origin}")
 public class StudentController {
 
     @Autowired
